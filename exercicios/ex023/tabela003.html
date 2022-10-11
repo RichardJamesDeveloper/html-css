@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">Sexo</td>
+            
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td rowspan="3">Masculino</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Lula</td>
+            
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Bolsonaro</td>
+            
+            <td>22</td> 
+        </tr>
+    </table>
+    
+</body>
+</html>
